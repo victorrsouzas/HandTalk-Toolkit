@@ -5,7 +5,6 @@ import { Typography } from "@mui/material";
 
 const FooterComponent = styled("div")({
     display: "flex",
-    position: "absolute",
     bottom: 0,
     marginTop: 20,
     zIndex: 50,

@@ -16,6 +16,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import { styled } from '@mui/system';
 import { ReactComponent as Male } from "../Assets/svg/male.svg";
 import Icon from "../Assets/img/icon2.png";
+import { Link } from "react-router-dom";
 
 export interface INavBarProps { }
 
@@ -36,13 +37,12 @@ const NavBar: React.FunctionComponent<INavBarProps> = (props) => {
 
     const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
         setAnchorElNav(event.currentTarget);
-        console.log(anchorElNav);
     };
     const handleOpenUserMenu = (event: React.MouseEvent<HTMLElement>) => {
         setAnchorElUser(event.currentTarget);
     };
 
-    const handleCloseNavMenu = () => {
+    const handleCloseNavMenu = (event: React.MouseEvent<HTMLElement>) => {
         setAnchorElNav(null);
     };
 
