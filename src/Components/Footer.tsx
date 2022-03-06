@@ -23,7 +23,7 @@ const Footer: React.FunctionComponent<IFooterProps> = (props) => {
         <>
             <FooterComponent>
                 <Typography color="#ffa500" sx={{ ml: 2 }}>
-                    <Typography component="span" fontWeight="500" >@Teste HandTalk</Typography> - Todos os Direitos Reservados
+                    @Teste HandTalk - Todos os Direitos Reservados
                 </Typography>
             </FooterComponent>
         </>

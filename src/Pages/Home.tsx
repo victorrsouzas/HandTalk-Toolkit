@@ -1,7 +1,5 @@
 import * as React from "react";
-import BoxContainer from "../Components/BoxContainer";
-import BoxContainer2 from "../Components/BoxContainer2";
-import { Grid, Container, Box } from '@mui/material';
+import { Grid, Box } from '@mui/material';
 import SpeedDialComponent from "../Components/SpeedDial";
 
 export interface IHomeProps { }

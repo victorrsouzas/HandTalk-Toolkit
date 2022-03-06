@@ -122,7 +122,7 @@ const NavBar: React.FunctionComponent<INavBarProps> = (props) => {
 
                             <Box sx={{ flexGrow: 0 }}>
                                 <Tooltip title="Open settings">
-                                    <IconButton onClick={handleOpenUserMenu} sx={{ p: 0, color: "#111111" }}>
+                                    <IconButton onClick={handleOpenUserMenu} sx={{ p: 0, color: "white" }}>
                                         <Avatar
                                             sx={{
                                                 bgcolor: "#fafafa"
